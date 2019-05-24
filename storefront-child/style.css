@@ -1,0 +1,120 @@
+/*
+ Theme Name:   StorefrontAngelle
+ Theme URI:    http://ange-elle.ch/
+ Description:  Custom Storefront theme for Ange-elle website
+ Author:       Miserez David
+ Author URI:   -
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         -
+ Text Domain:  storefront-child
+*/
+
+.site-header {
+	background: rgba(249, 249, 249, 0.47);
+}
+
+.page-template-template-homepage .entry-header h1 {
+  font-size: 2.5em;
+}
+
+.profile-pic {
+	border: 1px solid #8a8a8a;
+    border-radius: 2px;
+	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.site-header {
+		border-bottom-width: 0;
+	    background: transparent;
+	}
+
+	.page-template-template-homepage .entry-header h1 {
+		font-size: 3.7em;
+	}
+}
+
+.custom-banner {
+	background-image: url(http://test.ange-elle.ch/wp/wp-content/uploads/2017/07/cropped-background-3.jpeg);
+	box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+#post-37 {
+	background: rgba(249, 249, 249, 0.47);
+    border-radius: 15px;
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  display: none!important;
+}
+
+.product-quantity {
+	display: none;
+}
+
+.cart-subtotal {
+	display: none;
+}
+
+.order-total {
+	display: none;
+}
+
+/* ------------- Biography styles ---------------- */
+
+.biography {
+	display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.biography-wrapper {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.biography-wrapper {
+		max-width: 31%;
+    	margin-right: 20px;
+	}
+}
+
+.biography-wrapper > div:first-child  {
+	font-size: 1.3em;
+    color: rgb(123, 90, 158);
+}
+
+/* ----------------------------------------------- */
+
+/* ------------ Menu Customization --------------- */
+
+.main-navigation ul li a {
+	color: #886FA4;
+	font-weight: bold!important;
+    font-family: 'Muli', sans-serif;
+    transition: all 1s;
+	border-bottom: 4px solid transparent;
+}
+
+.main-navigation ul li a:hover {
+	border-bottom-color: #ab87e6;
+    color: white!important;
+    text-shadow: 0 0 1px #5700e5, 0 0 10px #5700e5, 0 0 10px #5700e5;
+}
+
+.site-header ul.menu li.current-menu-item > a {
+	color: #5600b7;
+}
+
+.main-navigation ul ul li a {
+	width: 159px;
+}
+
+button.menu-toggle, button.menu-toggle:hover {
+    background-color: rgba(144, 0, 255, 0.22);
+}
+
+/* ----------------------------------------------- */
